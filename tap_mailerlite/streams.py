@@ -48,10 +48,7 @@ class SubscriberStream(mailerliteStream):
             th.Property("city", th.StringType),
             th.Property("phone", th.StringType),
             th.Property("state", th.StringType),
-            th.Property("z_i_p", th.StringType),
-            th.Property("confirmation_ip", th.StringType),
-            th.Property("confirmation_ip", th.StringType),
-            th.Property("confirmation_ip", th.StringType)
+            th.Property("z_i_p", th.StringType)
             ),
         ),
         th.Property("date_subscribe", th.StringType),
